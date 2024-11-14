@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'League Spartan';
+    background-color: #e9fafa;
+    
+}
+.container {
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+header {
+    background-color: #9ab1b1;
+    background-image: url(../images/Combined\ Shape.png );
+    width: 100%;
+    height: 156px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 100%;
+    
+    
+}
+.input {
+    position: relative;
+    background-color: #fff;
+    display: flex;
+    top: -30px;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    box-shadow:0px 0px white, -0em 0 .5em olive;
+    border-radius: 4px;
+}
+input {
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    width: 80%;
+    color: #7C8F8F;
+    
+    
+}
+input:focus {
+    outline: none;
+    color: wi;
+}
+.li {
+    cursor: pointer;
+    font-weight: 500;
+}
+
+
+.hero {
+    box-shadow:0px 0px white, -0em 0 .5em olive;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 31px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 20px;
+    margin-bottom: 76px;
+    background-color: #FFF;
+    }
+.devel {
+    display: flex;
+    gap:    24px;
+}
+.info {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 14px;
+    align-items: center;
+}
+h4 {
+    font-size: 18px;
+    font-weight: 700;
+    color:  #5CA5A5;
+    
+}
+.info-b {
+    background-color:  #5CA5A5;
+    padding: 7px 8px 3px 8px;
+    border-radius: 12px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+
+}
+.info-color {
+    padding: 7px 8px 3px 8px;
+    border-radius: 12px;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 700;
+    
+    background-color: #2B3939;
+    
+}
+h1 {
+   font-size: 22px;
+   font-weight: 700;
+   color:  #2B3939;
+   margin-bottom: 7px;
+   cursor: pointer;
+   transition: all 0.5s ease-in-out;
+}
+h1:hover {
+    color:  #5CA5A5;
+}
+.spans {
+    display: flex;
+    align-items: center;
+    gap: 18.5px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #7C8F8F;
+    
+}
+.wakl {
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: #7C8F8F;
+}
+.iconka {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 700;
+    
+    color:  #5CA5A5;
+    
+    gap: 16px;
+}
+.link {
+    background-color: #e9fafa;
+    padding: 5px 9px 3px 9px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+
+}
+.link:hover {
+background-color: #5CA5A5;
+color: white;
+}
+@media screen and (max-width:1200px) {
+    .container {
+        max-width: 87%;
+    }
+    
+}
+@media screen and (max-width:992px) {
+    .hero {
+        gap: 10px;
+    }
+    .devel {
+        gap: 16px;
+    }
+    .spans {
+        gap: 8px;
+    }
+    .iconka {
+       flex-wrap: wrap;
+}
+@media screen and (max-width:768px) {
+    .hero {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        justify-content: flex-end;
+    }
+}
+@media screen and (max-width:576px) {
+   
+    .header {
+        background-image:url(../images/Combined\ Shape147.png);
+        
+    }
+    
+}
